@@ -49,12 +49,21 @@
       color: #4fc3f7 !important;
     }
 
-    .hero {
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      background: linear-gradient(to right, #000000, #0d1b2a);
-    }
+   .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+        ),
+        url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1920');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
     .hero h1 {
       font-size: 4rem;
